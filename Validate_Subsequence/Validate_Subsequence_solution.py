@@ -6,3 +6,15 @@ def isValidSubsequence(array, sequence):
         if pointer == len(sequence):
             return True
     return False
+
+def isValidSubsequence_sol2(array, sequence):
+    arrPoint = 0
+    seqPoint = 0
+    while arrPoint < len(array):
+        if array[arrPoint] == sequence[seqPoint]:
+            seqPoint += 1
+        if seqPoint == len(sequence):
+            return True
+        arrPoint += 1
+    return False
+        
