@@ -29,3 +29,13 @@ def twoNumberSum_sol2(array, targetSum):
         else:
             return [array[leftPoint], array[rightPoint]]
     return []
+
+# solution 3
+def twoNumberSum_sol3(array, targetSum):
+    array.sort()
+    for i in array:
+        for n in array[1:]:
+            sum = i + n
+            if sum == targetSum:
+                return [i, n]
+    return []
