@@ -1,0 +1,30 @@
+Class photos
+
+It's photo day at the local school, and you were the photographer 
+assigned to take class photos. The class that you will be 
+photographing has an even number of students, and all these students 
+are wearing red or blue shirts. In fact exactly half of the class is 
+wearing red shirts, and the other half is wearing blue shirts. You 
+are responsible for arranging the students in two rows before taking 
+the photo. Each row should contain the same number of students and 
+should adhere to the following guidelines:
+
+    1. All students wearing red shirts must be in the same row.
+    2. All students wearing blue shirts must be in the same row.
+    3. Each student in the back row must be strictly taller than the student directly in front of them in the front row.
+
+You are given two input arrays: one containing the heights of all 
+the students with red shirts and another one containing the height 
+of all the students with blue shirts. The array will always have the 
+same length, and each height will be a positive integer. Write a 
+function that returns whether or not a class photograph that follows 
+the stated guidelines can be taken.
+
+Note: You can assume that each class has at least two students.
+
+Example:
+
+Solution:
+
+Optimal space and time complexity:
+O(nlogn) time and O(1) space, where n is the number of students.
