@@ -1,0 +1,2 @@
+def sortedSquareArray(array):
+    return
